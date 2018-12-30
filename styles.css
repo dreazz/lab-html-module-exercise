@@ -1,0 +1,263 @@
+
+body{
+  margin:0;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+.nav-bar{
+  background-color:#C12127; 
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+/*** Align the nav***/
+  display:flex;
+}
+
+.nav-bar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+
+.top-links a{
+  text-decoration:none;
+  color:rgba(255,255,255,0.8);
+}
+
+.top-left{
+  /*** separates top-links from top-left ***/
+ margin-right:auto;
+}
+
+
+/***** header ****/ 
+.header{
+  background-image:url("images/city-scape.svg");
+  background-size:cover;
+  height: 38rem;
+  /*separates search bar div from navbar without blank spaces */
+  padding-top:5px; 
+  
+  color:White;
+}
+
+.header-top{
+  display:flex;
+  margin-top:7px;
+  height:35px;
+
+}
+.search-bar-input{
+  width:100%;
+ 
+}
+.search-bar-input input{
+  background-color: rgb(31, 82, 111);
+  border:0px;
+  width:96%;
+  height:39px;
+  color:white;
+}
+.search-bar-input button{
+  background-color: rgb(31, 82, 111);
+  border:0px;
+  height:39px;
+
+}
+.search-bar-input button i{
+  color:white;
+}
+
+.header-top ul{
+  margin-top:0px;
+  padding-left:15px;
+  
+}
+
+.header-top li{
+  display: inline-block;
+  margin:0px;
+  list-style: none;
+}
+
+
+
+.header-top a{
+  text-decoration: none;
+  }
+.header-signup{
+  color:rgb(240, 146, 51) ;
+}
+.header-login{
+  color:white ;
+}
+.npm-logo{
+  width: 70px;
+  height: 45px;
+  margin:0 5px 5px 5px;
+
+}
+.header-text{
+  width: 48%;
+  padding-top: 2rem;
+  margin-left: 10rem;
+}
+.header-text h1{
+  font-size:50px;
+  width:55%;
+  font-weight: inherit;
+}
+.header-text p{
+  width:100%;
+  font-size:20px;
+}
+
+.signup-header{
+  display:flex;
+  height: 37px;
+  width: 34%;
+  background: rgb(240, 146, 51);
+  border-radius: 20px;
+}
+
+.signup-header a{
+    color: white;
+    text-decoration: none;
+    margin: 6px auto;
+}
+
+/*** section 1 ***/
+
+.section1{
+  background:rgb(39, 53, 71);
+  display:flex;
+  color:white;
+  height:45rem;
+}
+
+.section1 img{
+  width:40%;
+  margin-left:auto;
+ padding-bottom:13px;
+}
+
+.section1-text{
+  margin-right:auto;
+  margin-left:26px;
+  padding-top: 10rem;
+}
+.section1-text h1{
+  padding-left: 31px;
+  width:78%;
+}
+.section1-text li {
+  font-size:20px;
+}
+.section1-text li{
+  margin:50px;
+}
+.signup-section1{
+  display:flex;
+  height: 37px;
+  width: 34%;
+  background: rgb(203, 56, 55);
+  border-radius: 20px;
+}
+
+.signup-section1 a{
+  color: white;
+  text-decoration: none;
+  margin: 6px auto;
+}
+
+
+/*** section 2 ***/
+.section2{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 38rem;
+  display:flex;
+}
+
+.section2-text{
+  width: 25%;
+  margin:6rem 0 0 10rem;
+  color:white;
+  
+}
+.section2-text h1{
+  font-size:50px;
+  font-weight: inherit;
+}
+.section2-text p{
+  font-size:20px;
+  font-weight: inherit;
+}
+.install-section2{
+  display:flex;
+  height: 37px;
+  width: 64%;
+  background: rgb(49, 68, 88);
+  border-radius: 20px;
+}
+
+.install-section2 a{
+  color: white;
+  text-decoration: none;
+  margin: 6px auto;
+}
+
+/*** section 3 ***/
+
+.section3{
+  height:38rem;
+  text-align: center;
+}
+.text-section{
+  display:flex;
+}
+.section3-text{
+  margin:0 auto;
+}
+.section3-text h1{
+  font-size:36px;
+  color:rgb(83, 88, 98)
+  
+}
+.section3-text p{
+  font-size:20px;
+  color:rgb(135, 145, 156);
+}
+.logos-section{
+  display:flex;
+}
+.logo{
+  width:33%;
+  text-align: center;
+}
+.logo h3{
+  font-weight: inherit;
+  font-size: 27px;
+  
+}
+.logo p{
+  font-size:21px;
+  
+}
+
+.logo a{
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+}
